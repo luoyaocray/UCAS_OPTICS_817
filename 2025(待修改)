@@ -1,0 +1,153 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{titlesec}
+
+% 页面布局设置
+\geometry{top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm}
+
+% 行距设置
+\linespread{1.5}
+
+% 段落设置
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.5em}
+
+% 节标题格式设置
+\titleformat{\section}{\normalfont\Large\bfseries}{第\chinese{section}章、}{1em}{}
+\titlespacing{\section}{0pt}{2.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+
+% 定理环境设置
+\newtheoremstyle{solution}
+{}
+{}
+{}
+{}
+{\bfseries}
+{、}
+{1em}
+{}
+\theoremstyle{solution}
+\newtheorem{sol}{解}
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{2025国科大全国硕士研究生招生考试试题：817光学}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+\begin{center}
+\Large\textbf{2025国科大全国硕士研究生招生考试试题：817光学}
+\end{center}
+
+
+
+
+\section*{一、填空题}
+\begin{enumerate}
+   \item 全反射的条件
+    \item 有人在游泳池边上竖直向下观察池水的深度，看到池水的深度约为2.1米。已知水的折射率n=4/3,那么，水的实际深度约为多少？
+    \item 轴上物点成像唯一有的色差是；不影响清晰像的色差是
+    \item 如果一个人在1000毫米的距离上看不清物体，他们可能患有近视或远视？他们应该佩戴多少度数的眼镜来矫正视力？
+    \item 透镜焦距$f=-100\text{mm}$，成倒立，等大的像，求像与像方焦点距离
+    \item 照相机的相对孔径表达式为什么？相对孔径越大，景深越（大/小）
+\end{enumerate}
+
+
+
+\section*{二、简答题}
+\begin{enumerate}
+\item 一检偏器前放置四分之一玻片，转一周看到两亮两黑，则该光束的偏振情况是？
+    \item 为镜头镀增透膜，则采用材料的折射率应当满足什么条件？
+    \item 光盘在自然光照射下储存数据面呈现出彩色条纹，原因是？
+    \item 光经过非均匀介质光强衰减的主要因素是？写出光强表达式。
+\end{enumerate}
+\clearpage
+\section*{三、计算题}
+
+\begin{enumerate}
+    \item $L1=-100\text{mm}, r1=-50\text{mm}, y1=10\text{mm}, d1=5\text{mm}, r2=10\text{mm}, n1=n2=1.5$，求物成像位置和像大小
+    
+    \item 棱镜成像问题，第一问为2025年真题，第二问为真题的变形，出处西电851物理光学与应用光学：2010年第11题。
+
+    
+    \begin{enumerate}
+    \item 有一 2mm 高物体，距透镜距离为 120mm，透镜焦距为 80mm，透镜距直角棱镜距离为 140mm，棱镜材料折射率\( n\) 为 1.5，物体在棱镜下方成像距棱镜底部距离为 60mm，求直角棱镜的直角边长以及成像像高。
+    \item 一个由焦距为 100 mm 的薄透镜和一个一次等腰直角棱镜（介质折射率为 1.5，直角边长为 90 mm）构成的光学系统，在透镜前 150 mm 处有一个 1 mm 高的物体，试确定像的位置和大小。
+  
+    \end{enumerate}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    \item (出处：2018.5)试写出长短轴之比为\(2:1\)、长轴沿\(x\) 轴的右旋和左旋椭圆偏振光的归一化琼斯矢量，并计算该二偏振光合成光的偏振状态。（偏振光的旋向按逆光传播方向观察规定）
+    
+    \item (出处：2024.12)有一架开普勒望远镜，视放大率 \(\Gamma\) 为 6，物方视场角 \(2\omega = 8^\circ\)，出瞳直径为 \(D' = 5 \, \text{mm}\)，物镜和目镜之间的距离 \(L = 140 \, \text{mm}\)，假定孔径光阑与物镜框重合，系统无渐晕，求：(真题数据缺失，这里以还原题目思路为主，思路一致)
+
+\begin{enumerate}
+    \item 物镜焦距 \(f'\) 和目镜焦距 \(f_1'\)
+    \item 分划板直径；
+    \item 物镜口径 \(\mathcal{D}_{\text{物}}\) 和目镜口径 \(\mathcal{D}_{\text{目}}\)
+    \item 出瞳距离 \(\mathcal{L}_z\)
+        \item 渐晕系数为$50\%$，不改变尺寸，消除渐晕视场需要增大还是减小？
+    \end{enumerate}
+    
+    \item 人瞳孔直径为\( 2.5 \, \text{mm}\)，敏感光波长为\( 550 \, \text{nm}\)。
+  \begin{enumerate}
+    \item 有两光点，距离\( 0.5 \, \text{m}\)，为分辨开两光点，则人应当距离其多远？
+    \item 为使望远镜能分辨角间距为\( 3.00 \times 10^{-7} \, \text{rad}\) 的两颗星，其物镜的直径至少应多大？为了充分利用此望远镜的分辨本领，望远镜应有多大的角放大率？
+\end{enumerate}
+
+    
+    \item (出处：2018.6)一束右旋圆偏振光的光强为\( I_0\)，由空气垂直入射到玻璃上，空气和玻璃的折射率分别为\( n_1 = 1\) 和\( n_2 = 1.5\)，试由入射光导出反射光的光场表示式、偏振态和光强。
+    
+    \item 在折射率\( n_1 = 1.52\) 的照相机镜头表面镀有一层折射率\( n_2 = 1.38\) 的 MgF2 增透膜，如果此膜适用于波长\( \lambda = 550 \, \text{nm}\) 的光，
+    
+     \begin{enumerate}
+        \item 问膜的最小厚度应是多少？
+        \item 问最大，最小反射率应是多少？
+    \end{enumerate}
+ 
+    \item 用某一单色光做双缝干涉实验时，已知双缝间的距离为 $0.25 \, \text{mm}$，在距离双缝为 $1.2 \, \text{m}$ 处的光屏上，测得 $5$ 条亮纹间的距离为 $7.5 \, \text{mm}$，(真题数据缺失，这里以还原题目思路为主，思路一致)
+    \begin{enumerate}
+        \item 试求所用单色光的波长。
+        \item 在杨氏双缝干涉实验中,如果用白光干涉，会发生什么现象
+    \end{enumerate}
+ 
+    \item 单缝夫琅禾费衍射实验问题
+    \begin{enumerate}
+        \item 在单缝夫琅禾费衍射实验中，垂直入射的光有两种波长，$\lambda_1 = 400 \, \text{nm}$，$\lambda_2 = 760 \, \text{nm}$。已知单缝宽度 $a = 1.0 \times 10^{-2} \, \text{cm}$，透镜焦距 $f = 50 \, \text{cm}$。求两种光第一级衍射明纹中心之间的距离。
+    
+    \item 若用光栅常量 $d = 1.0 \times 10^{-3} \, \text{cm}$ 的光栅替换单缝，其他条件和上一问相同，求两种光第一级主极大之间的距离。
+        \item 情报缺失
+        \item 情报缺失(与二级光谱相关)
+    \end{enumerate}
+    
+    \item 一束线偏振钠黄光(\(\lambda = 589.3 \, \text{nm}\)) 垂直通过一块厚度为\(1.618 \times 10^{-2} \, \text{mm}\) 的石英波片，波片折射率为\(n_o = 1.54424\)，\(n_e = 1.55335\)，光轴与入射界面平行。试对于以下三种情况，确定出射光的偏振状态。(真题数据缺失，这里以还原题目思路为主，思路一致)
+
+\begin{enumerate}
+    \item 入射线偏振光的振动方向与光轴成\(45^\circ\)；
+    \item 入射线偏振光的振动方向与光轴成\(-45^\circ\)；
+    \item 入射线偏振光的振动方向与光轴成\(30^\circ\)。
+\end{enumerate}
+\end{enumerate}
+
+
+\end{document}
